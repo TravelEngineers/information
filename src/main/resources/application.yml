@@ -1,0 +1,22 @@
+information:
+    task:
+       struts2: #Struts2 漏洞库
+          checkurl: https://cwiki.apache.org/confluence/display/WW/Security+Bulletins
+          details: https://cwiki.apache.org
+          checkcycle: 60000 #检测间隔，单位为ms
+       cnvd: #国家信息安全漏洞共享平台
+          checkurl: http://www.cnvd.org.cn/flaw/list.htm
+          details: http://www.cnvd.org.cn
+          checkcycle: 60000 #检测间隔，单位为ms
+       freebuf: #第三方漏洞信息平台
+          checkurl: http://www.freebuf.com/vuls
+          details: http://www.freebuf.com
+          checkcycle: 60000 #检测间隔，单位为ms
+    config:
+        mail:
+          account: *****   #发送人账号
+          pass: *****      #发送人密码
+          host: smtp.exmail.qq.com
+          port: 465
+          protocol: smtp  #协议
+          toUser: 18221672681@163.com,18607130234@189.cn
