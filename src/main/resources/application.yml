@@ -19,4 +19,4 @@ information:
           host: smtp.exmail.qq.com
           port: 465
           protocol: smtp  #协议
-          toUser: 18221672681@163.com,18607130234@189.cn
+          toUser: 邮箱1,邮箱2
